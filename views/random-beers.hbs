@@ -1,5 +1,10 @@
 <div class="row">
     {{#each randomData}}
-    {{> beerPartials this}}
-    {{/each}}
+    <div class="col-sm-12">
+        {{> beerPartials this}}
+        <p>{{food_pairing}}</p>
+        <p>{{brewers_tips}}</p>
+
+        {{/each}}
+    </div>
 </div>
